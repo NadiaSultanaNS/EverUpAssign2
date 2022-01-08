@@ -1,0 +1,87 @@
+
+.decoration {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.first-part a:hover {
+    background-color: orange;
+    height: 30px;
+    width: 100px;
+    text-align: center
+}
+.scroll-control{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    margin-top: 40px;
+    border: 5px solid palevioletred;
+    white-space: nowrap;
+}
+/* Firs-Section Ends */
+
+
+/* Second-Section Starts */
+.second-section-part1{
+    text-align: center;
+}
+.aliging-items img{
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.last-part{
+    height: 200px;
+    width: 400px;
+    margin: 0%;
+}
+
+.hotpink{
+    background-color: hotpink;
+    font-family: Arial;
+    margin: 0;
+    padding-top: 30px;
+}
+.pink{
+    background-color: pink;
+    font-family: Courier;
+    margin: 0;
+    padding-top: 45px;
+}
+.lightpink{
+    background-color: lightpink;
+    margin: 0;
+    padding-top: 45px;
+}
+.aliging-items{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.linkbutton{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 10px;
+    font-weight: 400;
+    color:white;
+}
+.second-section{
+    margin-top: 100px;
+}
+main{
+    background-color: lightgray;
+    padding-bottom: 100px;
+}
